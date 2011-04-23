@@ -11,9 +11,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: slnt_development
+  database: whisper_development
   pool: 5
-  username: slnt
+  username: whisper
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -37,15 +37,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: slnt_test
+  database: whisper_test
   pool: 5
-  username: slnt
+  username: whisper
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: slnt_production
+  database: whisper_production
   pool: 5
-  username: slnt
+  username: whisper
   password:
