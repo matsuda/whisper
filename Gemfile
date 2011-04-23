@@ -29,3 +29,11 @@ gem 'pg'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'jquery-rails'
+gem 'i18n_generators'
+gem 'redcarpet'
+
+group :test, :development do
+  gem "rspec-rails", "~> 2.4"
+end
