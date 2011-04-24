@@ -1,1 +1,4 @@
+<%- if logged_in? -%>
+<%= link_to 'Sign out', signout_path %>
+<%- end -%>
 <%= render :partial => 'articles' %>
