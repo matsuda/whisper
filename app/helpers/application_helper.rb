@@ -10,7 +10,7 @@ module ApplicationHelper
   end
 
   def markdown(text)
-    RDiscount.new(text).to_html.html_safe
+    Redcarpet.new(text).to_html.html_safe
   end
 
   # http://emersonlackey.com/article/rails3-error-messages-for-replacement

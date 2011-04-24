@@ -1,6 +1,8 @@
-<ul>
-  <li><%= link_to article.title, article_path(article.slug) %></li>
-  <li><%= article.content %></li>
-  <li><%= render_content article.content, :markdown %></li>
-  <li><%= l article.published_at %></li>
-</ul>
+<div>
+<%= link_to article.title, article_path(article.slug) %>
+</div>
+<div>
+<%= render_content article.content, :markdown %>
+</div>
+<div><%= l article.published_at %></div>
+

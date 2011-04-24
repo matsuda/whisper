@@ -21,7 +21,7 @@ class Article < ActiveRecord::Base
   # end
   # 
   # def markdown
-  #   RDiscount.new(self.content).to_html
+  #   Redcarpet.new(self.content).to_html
   # end
 
   private
