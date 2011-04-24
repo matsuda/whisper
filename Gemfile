@@ -33,6 +33,7 @@ gem 'pg'
 gem 'jquery-rails'
 gem 'i18n_generators'
 gem 'redcarpet'
+gem 'kaminari'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.4"

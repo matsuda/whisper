@@ -3,7 +3,7 @@ class ArticlesController < ApplicationController
   before_filter :find_article, :only => %w(edit update)
 
   def index
-    @articles = Article.published.order('published_at DESC').limit(10)
+    @articles = Article.published.page(params[:page])
   end
 
   def show
